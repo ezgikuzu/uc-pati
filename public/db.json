@@ -1,0 +1,303 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Ezgi Kuzu",
+      "email": "ezgi@ucpati.com",
+      "role": "Müşteri",
+      "status": "Aktif",
+      "petCount": 2,
+      "lastLogin": "24.06.2026"
+    },
+    {
+      "id": 2,
+      "name": "Ali Yılmaz",
+      "email": "ali.yilmaz@ucpati.com",
+      "role": "Hekim",
+      "status": "Aktif",
+      "petCount": 0,
+      "lastLogin": "23.06.2026"
+    },
+    {
+      "id": 3,
+      "name": "Beyza Mensur",
+      "email": "beyza@ucpati.com",
+      "role": "Müşteri",
+      "status": "Aktif",
+      "petCount": 1,
+      "lastLogin": "22.06.2026"
+    },
+    {
+      "id": 4,
+      "name": "Zeynep Arslan",
+      "email": "zeynep.arslan@ucpati.com",
+      "role": "Hekim",
+      "status": "Pasif",
+      "petCount": 0,
+      "lastLogin": "20.06.2026"
+    },
+    {
+      "id": 5,
+      "name": "Admin Kullanıcısı",
+      "email": "admin@ucpati.com",
+      "role": "Admin",
+      "status": "Aktif",
+      "petCount": 0,
+      "lastLogin": "24.06.2026"
+    }
+  ],
+  "patients": [
+    {
+      "id": 1,
+      "petName": "Boncuk",
+      "petType": "Kedi",
+      "breed": "British Shorthair",
+      "age": "3 yaşında",
+      "gender": "Dişi",
+      "ownerName": "Ezgi Kuzu",
+      "ownerPhone": "0555 111 22 33",
+      "ownerEmail": "ezgi@ucpati.com",
+      "microchipNo": "TR-340001",
+      "chronicDisease": "Yok",
+      "allergy": "Bilinen alerji yok",
+      "lastVisit": "2026-06-20",
+      "nextControl": "2026-07-20",
+      "vaccineStatus": "Aşıları güncel",
+      "treatmentNote": "Rutin kontrol yapıldı. Genel sağlık durumu iyi.",
+      "riskStatus": "Düşük",
+      "doctor": "Veteriner Hekim Mehmet Kaya"
+    },
+    {
+      "id": 2,
+      "petName": "Max",
+      "petType": "Köpek",
+      "breed": "Golden Retriever",
+      "age": "5 yaşında",
+      "gender": "Erkek",
+      "ownerName": "Ali Yılmaz",
+      "ownerPhone": "0555 222 33 44",
+      "ownerEmail": "ali.yilmaz@ucpati.com",
+      "microchipNo": "TR-340002",
+      "chronicDisease": "Hafif eklem hassasiyeti",
+      "allergy": "Tavuk içerikli mamalara hassasiyet",
+      "lastVisit": "2026-06-18",
+      "nextControl": "2026-07-02",
+      "vaccineStatus": "Karma aşı zamanı yaklaşıyor",
+      "treatmentNote": "Beslenme düzeni ve kilo takibi önerildi.",
+      "riskStatus": "Orta",
+      "doctor": "Veteriner Hekim Ali Yılmaz"
+    },
+    {
+      "id": 3,
+      "petName": "Minik",
+      "petType": "Kedi",
+      "breed": "Tekir",
+      "age": "1 yaşında",
+      "gender": "Erkek",
+      "ownerName": "Beyza Mensur",
+      "ownerPhone": "0555 333 44 55",
+      "ownerEmail": "beyza@ucpati.com",
+      "microchipNo": "TR-340003",
+      "chronicDisease": "Yok",
+      "allergy": "Yok",
+      "lastVisit": "2026-06-15",
+      "nextControl": "2026-07-15",
+      "vaccineStatus": "Parazit uygulaması takip edilecek",
+      "treatmentNote": "Parazit testi sonucu bekleniyor.",
+      "riskStatus": "Düşük",
+      "doctor": "Veteriner Hekim Zeynep Arslan"
+    },
+    {
+      "id": 4,
+      "petName": "Limon",
+      "petType": "Kuş",
+      "breed": "Muhabbet Kuşu",
+      "age": "2 yaşında",
+      "gender": "Dişi",
+      "ownerName": "Zeynep Arslan",
+      "ownerPhone": "0555 444 55 66",
+      "ownerEmail": "zeynep.arslan@ucpati.com",
+      "microchipNo": "Yok",
+      "chronicDisease": "Solunum hassasiyeti",
+      "allergy": "Bilinen alerji yok",
+      "lastVisit": "2026-06-10",
+      "nextControl": "2026-06-30",
+      "vaccineStatus": "Aşı takibi gerekmiyor",
+      "treatmentNote": "Ortam havalandırması ve kafes temizliği önerildi.",
+      "riskStatus": "Orta",
+      "doctor": "Veteriner Hekim Ali Yılmaz"
+    },
+    {
+      "id": 5,
+      "petName": "Pamuk",
+      "petType": "Hamster",
+      "breed": "Suriye Hamsterı",
+      "age": "8 aylık",
+      "gender": "Dişi",
+      "ownerName": "Ezgi Kuzu",
+      "ownerPhone": "0555 111 22 33",
+      "ownerEmail": "ezgi@ucpati.com",
+      "microchipNo": "Yok",
+      "chronicDisease": "Yok",
+      "allergy": "Yok",
+      "lastVisit": "2026-06-12",
+      "nextControl": "2026-07-12",
+      "vaccineStatus": "Aşı takibi gerekmiyor",
+      "treatmentNote": "Beslenme ve yaşam alanı kontrol edildi.",
+      "riskStatus": "Düşük",
+      "doctor": "Veteriner Hekim Mehmet Kaya"
+    },
+    {
+      "id": 6,
+      "petName": "Duman",
+      "petType": "Kedi",
+      "breed": "Scottish Fold",
+      "age": "4 yaşında",
+      "gender": "Erkek",
+      "ownerName": "Admin Kullanıcısı",
+      "ownerPhone": "0555 555 66 77",
+      "ownerEmail": "admin@ucpati.com",
+      "microchipNo": "TR-340006",
+      "chronicDisease": "Böbrek hassasiyeti",
+      "allergy": "Yok",
+      "lastVisit": "2026-06-22",
+      "nextControl": "2026-07-05",
+      "vaccineStatus": "Kuduz aşısı güncel",
+      "treatmentNote": "Su tüketimi ve mama düzeni takip edilecek.",
+      "riskStatus": "Yüksek",
+      "doctor": "Veteriner Hekim Zeynep Arslan"
+    }
+  ],
+  "labResults": [
+    {
+      "id": 1,
+      "patientId": 1,
+      "petName": "Boncuk",
+      "petType": "Kedi",
+      "ownerName": "Ezgi Kuzu",
+      "testType": "Kan Tahlili",
+      "date": "2026-06-25",
+      "doctor": "Veteriner Hekim Mehmet Kaya",
+      "status": "Tamamlandı",
+      "resultStatus": "Normal",
+      "summary": "Boncuk’un genel kan değerleri normal aralıkta değerlendirilmiştir.",
+      "doctorNote": "Genel sağlık durumu iyi görünmektedir. Rutin kontrol ve aşı takibine devam edilmesi önerilir.",
+      "values": [
+        {
+          "parameter": "WBC",
+          "value": "8.2",
+          "reference": "5.5 - 19.5",
+          "status": "Normal"
+        },
+        {
+          "parameter": "RBC",
+          "value": "7.1",
+          "reference": "5.0 - 10.0",
+          "status": "Normal"
+        },
+        {
+          "parameter": "Glukoz",
+          "value": "95",
+          "reference": "70 - 120",
+          "status": "Normal"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "patientId": 2,
+      "petName": "Max",
+      "petType": "Köpek",
+      "ownerName": "Ali Yılmaz",
+      "testType": "Biyokimya",
+      "date": "2026-06-26",
+      "doctor": "Veteriner Hekim Ali Yılmaz",
+      "status": "Tamamlandı",
+      "resultStatus": "Takip Gerekli",
+      "summary": "Bazı biyokimya değerlerinde takip edilmesi gereken hafif değişiklikler görülmüştür.",
+      "doctorNote": "Beslenme düzeni gözden geçirilmeli ve 2 hafta sonra tekrar kontrol önerilir.",
+      "values": [
+        {
+          "parameter": "ALT",
+          "value": "78",
+          "reference": "10 - 60",
+          "status": "Yüksek"
+        },
+        {
+          "parameter": "AST",
+          "value": "42",
+          "reference": "10 - 50",
+          "status": "Normal"
+        },
+        {
+          "parameter": "Üre",
+          "value": "32",
+          "reference": "15 - 40",
+          "status": "Normal"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "patientId": 3,
+      "petName": "Minik",
+      "petType": "Kedi",
+      "ownerName": "Beyza Mensur",
+      "testType": "Parazit Testi",
+      "date": "2026-06-27",
+      "doctor": "Veteriner Hekim Zeynep Arslan",
+      "status": "Bekleniyor",
+      "resultStatus": "Bekleniyor",
+      "summary": "Test sonucu laboratuvar tarafından değerlendirme aşamasındadır.",
+      "doctorNote": "Sonuç tamamlandığında müşteri panelinden görüntülenebilir.",
+      "values": [
+        {
+          "parameter": "İç Parazit",
+          "value": "Bekleniyor",
+          "reference": "Negatif",
+          "status": "Bekleniyor"
+        },
+        {
+          "parameter": "Dış Parazit",
+          "value": "Bekleniyor",
+          "reference": "Negatif",
+          "status": "Bekleniyor"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "patientId": 6,
+      "petName": "Duman",
+      "petType": "Kedi",
+      "ownerName": "Admin Kullanıcısı",
+      "testType": "Böbrek Fonksiyon Testi",
+      "date": "2026-06-28",
+      "doctor": "Veteriner Hekim Zeynep Arslan",
+      "status": "Tamamlandı",
+      "resultStatus": "Takip Gerekli",
+      "summary": "Böbrek değerlerinde takip edilmesi gereken değişiklikler gözlenmiştir.",
+      "doctorNote": "Beslenme düzeni ve su tüketimi takip edilmelidir. Kontrol testi önerilir.",
+      "values": [
+        {
+          "parameter": "Kreatinin",
+          "value": "2.1",
+          "reference": "0.8 - 1.8",
+          "status": "Yüksek"
+        },
+        {
+          "parameter": "Üre",
+          "value": "48",
+          "reference": "15 - 40",
+          "status": "Yüksek"
+        },
+        {
+          "parameter": "Fosfor",
+          "value": "5.3",
+          "reference": "2.5 - 6.0",
+          "status": "Normal"
+        }
+      ]
+    }
+  ]
+}
