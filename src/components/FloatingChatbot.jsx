@@ -98,7 +98,7 @@ export default function FloatingChatbot() {
     }, 90000);
 
     try {
-      const response = await fetch("https://uc-pati-server.onrender.com", {
+      const response = await fetch("https://uc-pati-server.onrender.com/chat", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
