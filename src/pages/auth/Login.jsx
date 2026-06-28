@@ -147,13 +147,6 @@ export default function Login() {
           <form onSubmit={handleLogin} className="mt-7">
             <div className="grid gap-4">
               <div className="bg-[#f3f8f7] border border-[#d8e7e4] rounded-2xl p-5">
-                <p className="text-sm text-slate-500">Ad Soyad</p>
-                <h3 className="font-black text-[#134e4a] mt-1">
-                  {selectedUser.name}
-                </h3>
-              </div>
-
-              <div className="bg-[#f3f8f7] border border-[#d8e7e4] rounded-2xl p-5">
                 <p className="text-sm text-slate-500">E-posta</p>
                 <h3 className="font-black text-[#134e4a] mt-1">
                   {selectedUser.email}
@@ -161,9 +154,9 @@ export default function Login() {
               </div>
 
               <div className="bg-[#f3f8f7] border border-[#d8e7e4] rounded-2xl p-5">
-                <p className="text-sm text-slate-500">Gidilecek Panel</p>
+                <p className="text-sm text-slate-500">Şifre</p>
                 <h3 className="font-black text-[#134e4a] mt-1">
-                  {selectedUser.panelPath}
+                  ******
                 </h3>
               </div>
             </div>
